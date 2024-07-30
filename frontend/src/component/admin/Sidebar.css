@@ -1,0 +1,185 @@
+/* Sidebar.css */
+
+.sidebar1 {
+    width: 77%;
+    height: 60px;
+    background-color: #2e3b55;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    position: relative;
+    top: -31px;
+    z-index: 1000;
+    margin-left: 138px;
+  }
+  
+  .sidebar1 a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .sidebar1 a:hover {
+    background-color: #1f2a40;
+  }
+  
+  .sidebar1 img {
+    height: 40px;
+  }
+  
+  .sidebar1 p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .sidebar1 .treeview-container {
+    position: relative;
+  }
+  
+  .sidebar1 .MuiTreeView-root {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar1 .MuiTreeItem-root {
+    color: #fff;
+    transition: background-color 0.3s ease;
+    position: relative;
+  }
+  
+  .sidebar1 .MuiTreeItem-root:hover > .MuiTreeItem-content {
+    background-color: #1f2a40;
+  }
+  
+  .sidebar1 .MuiTreeItem-content {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+  }
+  
+  .sidebar1 .MuiTreeItem-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar1 .MuiSvgIcon-root {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .sidebar1 .MuiTreeItem-group {
+    position: absolute;
+    top: 60px; /* Position the dropdown right below the navbar */
+    left: 0;
+    background-color: #2e3b55;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sidebar1 .MuiTreeItem-group .MuiTreeItem-root {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .sidebar1 .MuiTreeItem-group .MuiTreeItem-content {
+    padding: 10px 15px;
+    width: 200px; /* Set a fixed width for the dropdown items */
+  }
+  
+  .sidebar1 .MuiTreeItem-root:hover .MuiTreeItem-group,
+  .sidebar1 .MuiTreeItem-root.Mui-expanded .MuiTreeItem-group {
+    display: flex;
+  }
+  
+
+  .css-11u3b1d-MuiSpeedDial-root {
+   
+    margin-top: -34px;
+  }
+
+
+  .dashbordContainer  >h1{
+    color: black;
+    margin: auto;
+    width: 50%;
+    padding: 1.5rem;
+    text-align: center  ;
+  }
+
+  .dashboardSummary{
+    margin: 2rem 0;
+  }
+
+  .dashboardSummary >div{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .dashboardSummary>div >p{
+    width: 77%;
+    margin: 0 2rem;
+    background-color: gray;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .dashboardSummaryBox2 >a{
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    border-radius: 100%;
+   margin: 2rem;
+   width: 10vmax;
+   height: 10vmax;
+  }
+
+  .dashboardSummaryBox2  > a :first-child{
+      color: white;
+  }
+
+  #t1{
+    background-color: rgb(18, 38, 55);
+  }
+  
+
+  #t2{
+    background-color: rgb(74, 219, 200);
+  }
+
+  #t3{
+    background-color: rgb(224, 123, 105);
+  }
+
+
+  .lineChart{
+    width: 80%;
+    margin: auto;
+  }
+
+  .doughnutChart{
+    width:  40vmax;
+    margin: auto;
+  }
+

@@ -1,0 +1,145 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uu1 {
+    flex: 1;
+    padding: 181px;
+    border-left: 1px solid #d61212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-table;
+    /* margin: 158px 271px 146px 318px */
+}
+
+.uu1 h1 {
+    margin-bottom: 63px;
+
+}
+
+.uu1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.uu1 a {
+    text-decoration: none;
+    color: #160c14;
+    margin-top: 10px;
+    margin-right: 43px;
+}
+
+.profileContainer {
+    flex: 1;
+   
+    display: inline-table;
+    /* margin: 210px 142px 363px 115px; */
+    padding: 168px;
+   
+
+}
+
+.profileContainer div {
+    margin-bottom: 20px;
+}
+
+.profileContainer h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.profileContainer p {
+    margin: 0;
+    color: #555;
+}
+
+.profileContainer a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+}
+.profileContainer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 47px;
+    border: 2px solid rgb(13, 13, 18);
+}
+
+.i1{
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   margin-left: -10px;
+   border-top: 2px solid red;
+}
+
+.i2{
+    margin: 20px;
+    display: flex;
+ }
+
+ .i3{
+    margin: 20px;
+    display: flex;
+ }
+
+ #i4 {
+    margin-left: 45px;
+}
+
+#i5 {
+    margin-left: 45px;
+}
+
+#h1 ,#h2{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 11px;
+    margin: 11px;
+    color: white;
+}
+
+#h1:hover{
+    background-color:tomato;
+}
+#h2:hover{
+    background-color: tomato;
+}
+
+
+#h4 {
+    margin: 27px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+    padding: 7px;
+}
+#h4:hover{
+    background-color: tomato;
+}
+.h7{
+    margin: 10px;
+}

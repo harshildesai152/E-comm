@@ -1,0 +1,12 @@
+// selectors.js
+
+import { createSelector } from 'reselect';
+
+const selectProductState = state => state.products;
+
+const selectProducts = createSelector(
+    [selectProductState],
+    productState => productState.products || []
+);
+
+export default selectProducts; // Export as default

@@ -1,0 +1,115 @@
+.ConfirmOrder {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .ConfirmOrder > div {
+    width: 48%;
+
+    border-right: 2px solid black;
+    padding: 31px;
+  }
+  
+  .ConfirmShipping, .orderSummary, .confirmCart {
+    margin-bottom: 2rem;
+  }
+  
+  .shippingBox, .confirmcartitem, .orderSummary > div {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .shippingBox div, .confirmcartitem div, .orderSummary > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .shippingBox div:last-child, .confirmcartitem div:last-child, .orderSummary > div > div:last-child {
+    border-bottom: none;
+  }
+  
+  .shippingBox p, .confirmcartitem p, .orderSummary p {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .shippingBox span, .confirmcartitem span, .orderSummary span {
+    font-weight: 400;
+    color: #555;
+  }
+  
+  .confirmcartitem img {
+    width: 50px;
+    height: 68px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .confirmcartitem a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .confirmcartitem a:hover {
+    text-decoration: underline;
+  }
+  
+  .orderSummary div {
+   
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .orderSummary div:last-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .orderSummary button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .orderSummary button:hover {
+    background-color: #005bb5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ConfirmOrder {
+      flex-direction: column;
+    }
+  
+    .ConfirmOrder > div {
+      width: 100%;
+    }
+  
+    .shippingBox, .confirmcartitem, .orderSummary > div {
+      padding: 1rem;
+    }
+  }
+  
+  p.MuiTypography-root.MuiTypography-body1.ll1.css-ahj2mt-MuiTypography-root {
+    font-size: 34px;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+    font-size: 34px;
+}

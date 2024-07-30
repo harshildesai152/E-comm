@@ -1,0 +1,122 @@
+/* NewProduct.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.newProductContainer {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createProductForm {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 71px;
+    max-width: 600px;
+}
+
+.createProductForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.createProductForm div {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.createProductForm div svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+/* .createProductForm input,
+.createProductForm textarea,
+.createProductForm select {
+    width: 80%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+} */
+
+.createProductForm input:focus,
+.createProductForm textarea:focus,
+.createProductForm select:focus {
+    border-color: #3f51b5;
+} 
+
+.createProductForm input[type="file"] {
+    padding-left: 0;
+}
+
+#createProductFormFile {
+     border: 1px dashed #ddd; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+#createProductFormFile input {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#createProductFormImage img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#createProductBtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#createProductBtn:hover {
+    background-color: #303f9f;
+}
+
+#createProductBtn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .createProductForm {
+        padding: 20px;
+    }
+
+    #createProductFormImage img {
+        width: 80px;
+        height: 80px;
+    }
+}

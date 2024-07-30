@@ -1,0 +1,83 @@
+.myOrderPage {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myOrderTable {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #myHeading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+ 
+  .MuiDataGrid-root {
+    background: #fff;
+    border-radius: 8px;
+  
+  }
+  
+  .MuiDataGrid-cell {
+    text-align: center;
+  }
+  
+  .MuiDataGrid-columnHeaderTitle {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .MuiDataGrid-row {
+    &:nth-of-type(odd) {
+      background: #f9f9f9;
+    }
+    &:nth-of-type(even) {
+      background: #fff;
+    }
+  }
+  
+  
+  .greenColor {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .redColor {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  .MuiDataGrid-cell a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .MuiDataGrid-footerContainer {
+    justify-content: center;
+   
+  }
+
+  .MuiDataGrid-main{
+    padding-bottom: 288px;
+  }
+
+
+  .MuiDataGrid-root .MuiDataGrid-columnHeaderWrapper {
+    
+    background-color: tomato;
+  }

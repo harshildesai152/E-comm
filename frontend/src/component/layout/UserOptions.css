@@ -1,0 +1,15 @@
+img.speedDialIcon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.speedDial{
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+}
+
+div#navigationspeeddial-actions {
+    margin-top: -77px;
+}

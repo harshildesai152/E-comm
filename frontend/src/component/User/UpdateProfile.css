@@ -1,0 +1,134 @@
+/* UpdateProfile.css
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.updateProfileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 20px;
+}
+
+.updateProfileBox {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.updateProfileBox h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+}
+
+.updateProfileForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.updateProfileForm > div {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.updateProfileForm input[type="text"],
+.updateProfileForm input[type="email"],
+.updateProfileForm input[type="file"],
+.updateProfileForm input[type="submit"] {
+    width: 100%;
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.updateProfileForm input[type="text"]:focus,
+.updateProfileForm input[type="email"]:focus,
+.updateProfileForm input[type="file"]:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 10px rgba(110, 142, 251, 0.1);
+}
+
+.updateProfileForm input[type="submit"] {
+    background-color: #6e8efb;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.updateProfileForm input[type="submit"]:hover {
+    background-color: #5a78e0;
+    transform: translateY(-3px);
+}
+
+.updateProfileForm input[type="file"] {
+    padding: 5px;
+}
+
+.updateProfileForm input::placeholder {
+    color: #bbb;
+}
+
+.updateProfileForm svg {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    color: #bbb;
+}
+
+#updateProfileImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#updateProfileImage img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+}
+
+#updateProfileImage input[type="file"] {
+    border: none;
+}
+ */
+
+
+ .inputContainer1  >img{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .inputContainer1 {
+
+    width: 50%;
+   
+}
+
+
+input[type="file"] {
+    border: none;
+    padding: 20px 2px;
+    margin: 20px 29px;
+}

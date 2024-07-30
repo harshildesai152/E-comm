@@ -1,0 +1,168 @@
+/* NewProduct.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard1 {
+    display: flex;
+    min-height: 100vh;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.newProductContainer {
+    flex: 1;
+    padding: 40px;
+    background: #fff;
+}
+
+.newProductContainer img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.createProductForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.createProductForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.inputContainer {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* .inputContainer.focused {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 5px 10px;
+} */
+
+.inputContainer svg {
+    position: absolute;
+    left: 10px;
+    color: #888;
+}
+
+.inputContainer input,
+.inputContainer textarea,
+.inputContainer select {
+    width: 100%;
+    padding: 10px 15px 10px 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+ .inputContainer input:focus,
+.inputContainer textarea:focus,
+.inputContainer select:focus {
+    border-color: #333;
+} 
+
+.inputContainer textarea {
+    resize: none;
+}
+
+#createProductFormFile {
+    margin-bottom: 20px;
+}
+
+#createProductFormFile input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#createProductFormFile input:focus {
+    border-color: #333;
+}
+
+#createProductFormImage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#createProductFormImage img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#createProductBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#createProductBtn:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .newProductContainer {
+        padding: 20px;
+    }
+
+    .createProductForm {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .inputContainer input,
+    .inputContainer textarea,
+    .inputContainer select {
+        padding: 10px 15px;
+    }
+
+    #createProductFormImage img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+.gg1 {
+    width: 46%;
+    height: 29%;
+    margin-top: 62px;
+}
+
+#y1{
+    margin-left: 660px;
+}

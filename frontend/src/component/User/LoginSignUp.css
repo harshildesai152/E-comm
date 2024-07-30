@@ -1,0 +1,165 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container for the form */
+.LoginSignUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6b73ff 10%, #000dff 100%);
+}
+
+/* Box containing both login and signup forms */
+.LoginSignUpBox {
+    width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 0 30px darkgoldenrod;
+    transition: all 0.3s ease;
+}
+
+/* Toggle container for login and signup */
+.login_signUp_toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+/* Toggle buttons for switching between login and signup */
+.login_signUp_toggle p {
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.login_signUp_toggle p:hover,
+.login_signUp_toggle p.active {
+    color: #000dff;
+    
+}
+
+/* Sliding button animation */
+#mm1 {
+    width: 50%;
+    height: 4px;
+    background: #000dff;
+    border: none;
+
+
+}
+
+/* Form styling */
+.loginForm,
+.signUpForm {
+    display: none;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.loginForm.active,
+.signUpForm.active {
+    display: flex;
+    
+}
+
+.loginEmail,
+.loginePassword,
+.sigmUpName,
+.signUpEmail,
+.signUpPassword {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.loginEmail:focus-within,
+.loginePassword:focus-within,
+.sigmUpName:focus-within,
+.signUpEmail:focus-within,
+.signUpPassword:focus-within {
+    border-color: #000dff;
+    
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+input[type="submit"] {
+    background: #000dff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #3333ff;
+}
+
+.LoginBtn,
+.signUpBtn {
+    margin-top: 20px;
+}
+
+a {
+    color: #000dff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Avatar upload styles */
+#registerImage {
+    display: flex;
+    align-items: center;
+}
+
+#registerImage img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.shiftToNeutral{
+    transform: translateX(0%);
+    padding: 1px;
+    }
+    
+    
+    
+    .shiftToRight{
+    transform: translateX(100%);
+    padding: 1px;
+    }
